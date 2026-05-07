@@ -865,7 +865,7 @@ class CircadianApp(tk.Tk):
         self.lbl_poor_fit.config(text=str(fits["Poor Match"]))
 
         # Energy overview text
-        overview = "ENERGY OVERVIEW\n" + "─" * 28 + "\n\n"
+        overview = "ENERGY OVERVIEW\n" + "─" * 15 + "\n\n"
         for seg in TIME_SEGMENTS:
             icon = SEG_ICON.get(seg, "")
             if seg in avgs:
@@ -874,7 +874,7 @@ class CircadianApp(tk.Tk):
             else:
                 overview += f"{icon}  {seg:10s}  ░░░░░  —   No data\n"
 
-        overview += "\n\nTASK FIT SUMMARY\n" + "─" * 28 + "\n\n"
+        overview += "\n\nTASK FIT SUMMARY\n" + "─" * 16 + "\n\n"
         overview += f"✅  Good Match   {fits['Good Match']:>3}\n"
         overview += f"⚡  Fair Match   {fits['Fair Match']:>3}\n"
         overview += f"❌  Poor Match   {fits['Poor Match']:>3}"
@@ -886,7 +886,7 @@ class CircadianApp(tk.Tk):
         )
 
         self.reco_text.config(
-            text=f"RECOMMENDATION\n{'─' * 28}\n\n{reco}",
+            text=f"RECOMMENDATION\n{'─' * 10}\n\n{reco}",
             font=("Segoe UI", 10),
             fg=C["text"]
         )
