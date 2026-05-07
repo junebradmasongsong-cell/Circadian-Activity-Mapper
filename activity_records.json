@@ -1,0 +1,44 @@
+[
+    {
+        "time": "Morning",
+        "activity": "Routine Task",
+        "energy": 3,
+        "date": "2026-05-07 07:04"
+    },
+    {
+        "time": "Afternoon",
+        "activity": "Deep Work",
+        "energy": 2,
+        "date": "2026-05-07 07:05"
+    },
+    {
+        "time": "Afternoon",
+        "activity": "Social / Communication",
+        "energy": 4,
+        "date": "2026-05-07 07:05"
+    },
+    {
+        "time": "Evening",
+        "activity": "Creative Task",
+        "energy": 3,
+        "date": "2026-05-07 07:05"
+    },
+    {
+        "time": "Evening",
+        "activity": "Rest / Break",
+        "energy": 1,
+        "date": "2026-05-07 07:05"
+    },
+    {
+        "time": "Morning",
+        "activity": "Deep Work",
+        "energy": 1,
+        "date": "2026-05-07 07:05"
+    },
+    {
+        "time": "Morning",
+        "activity": "Physical Task",
+        "energy": 3,
+        "date": "2026-05-07 07:16"
+    }
+]
